@@ -1,0 +1,254 @@
+<resources>
+    <dimen name="fab_margin">200dp</dimen>
+    <!-- SPLASH SCREEN-->
+
+    <dimen name="image_view_margin_start">10dp</dimen>
+
+    <!-- LOGIN SCREEN-->
+    <dimen name="logo_width">150dp</dimen>
+    <dimen name="logo_height">150dp</dimen>
+    <dimen name="logo_margin_top">32dp</dimen>
+    <dimen name="text_input_layout_margin_top">16dp</dimen>
+    <dimen name="text_input_layout_margin_horizontal">10dp</dimen>
+    <dimen name="button_width">180dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
+    <dimen name="Text_layout_width">0dp</dimen>
+    <dimen name="login_button_margin_horizontal">50dp</dimen>
+    <dimen name="login_button_margin_top">48dp</dimen>
+    <dimen name="login_button_text_size">20sp</dimen>
+    <dimen name="login_layout_margin_top">60dp</dimen>
+
+    <!-- HOME FRAGMENT-->
+    <!-- Dimensions for the CardView -->
+    <dimen name="card_width">150dp</dimen>
+    <dimen name="card_height">160dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="text_margin_top">25dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="text_size">24sp</dimen>
+    <dimen name="text_hiddensize">14sp</dimen>
+    <dimen name="layout_margin_top">20dp</dimen>
+    <dimen name="image_height">85dp</dimen>
+
+    <dimen name="card3_width">150dp</dimen>
+    <dimen name="card3_height">160dp</dimen>
+    <dimen name="card3_corner_radius">8dp</dimen>
+    <dimen name="card3_margin_top">200dp</dimen>
+    <dimen name="card3_margin_left">16dp</dimen>
+
+    <dimen name="card4_width">150dp</dimen>
+    <dimen name="card4_height">160dp</dimen>
+    <dimen name="card4_corner_radius">8dp</dimen>
+    <dimen name="card4_margin_top">200dp</dimen>
+    <dimen name="card4_margin_left">190dp</dimen>
+
+    <dimen name="card2_width">150dp</dimen>
+    <dimen name="card2_height">160dp</dimen>
+    <dimen name="card2_corner_radius">8dp</dimen>
+    <dimen name="card2_margin_top">16dp</dimen>
+    <dimen name="card2_margin_left">190dp</dimen>
+
+
+    <dimen name="text_margin_topAlert">93dp</dimen>
+    <dimen name="text_margin_bottom">58dp</dimen>
+    <dimen name="text_sizeAlert">25sp</dimen>
+
+
+
+    <dimen name="radio_group_width">0dp</dimen>
+    <dimen name="radio_group_margin_top">100dp</dimen>
+    <dimen name="radio_group_margin_bottom">348dp</dimen>
+    <dimen name="radio_group_padding_left">20dp</dimen>
+    <dimen name="radio_button_text_size">24sp</dimen>
+    <dimen name="image_view_height">350dp</dimen>
+    <dimen name="image_view_margin_top">4dp</dimen>
+
+    <!-- PROGRESS LOADING PAGE -->
+    <dimen name="text_view_margin_start">79dp</dimen>
+    <dimen name="text_view_margin_top">152dp</dimen>
+    <dimen name="text_view_margin_end">80dp</dimen>
+    <dimen name="text_view_text_size">24sp</dimen>
+
+    <dimen name="progress_bar_width">120dp</dimen>
+    <dimen name="progress_bar_height">120dp</dimen>
+    <dimen name="progress_bar_margin">16dp</dimen>
+    <dimen name="progress_bar_margin_top">31dp</dimen>
+    <dimen name="progress_bar_margin_bottom">331dp</dimen>
+
+
+    <!-- SALE FRAGMENT -->
+    <dimen name="custom_text_view_margin_start">85dp</dimen>
+    <dimen name="custom_text_view_margin_top">110dp</dimen>
+    <dimen name="custom_text_view_margin_bottom">54dp</dimen>
+    <dimen name="custom_text_view_text_size">25sp</dimen>
+    <dimen name="custom_edit_text_width">225dp</dimen>
+    <dimen name="custom_edit_text_margin_end">30dp</dimen>
+    <dimen name="custom_edit_text_padding_left">25dp</dimen>
+    <dimen name="custom_edit_text_text_size">60sp</dimen>
+    <dimen name="custom_dollar_text_view_margin_start">107dp</dimen>
+    <dimen name="custom_dollar_text_view_text_size">60sp</dimen>
+    <dimen name="custom_button_width">200dp</dimen>
+    <dimen name="custom_button_margin">16dp</dimen>
+
+    <!-- REFUND FRAGMENT -->
+
+    <dimen name="refund_text_view_margin_start">60dp</dimen>
+    <dimen name="refund_text_view_margin_top">110dp</dimen>
+    <dimen name="refund_text_view_margin_bottom">54dp</dimen>
+    <dimen name="refund_text_view_text_size">25sp</dimen>
+
+
+    <dimen name="refund_edit_text_width">225dp</dimen>
+    <dimen name="refund_edit_text_margin_end">30dp</dimen>
+    <dimen name="refund_edit_text_padding_left">25dp</dimen>
+    <dimen name="refund_edit_text_text_size">60sp</dimen>
+
+
+    <dimen name="refund_dollar_text_view_margin_start">107dp</dimen>
+    <dimen name="refund_dollar_text_view_text_size">60sp</dimen>
+
+
+    <dimen name="refund_button_width">200dp</dimen>
+    <dimen name="refund_button_margin">16dp</dimen>
+
+
+        <!-- TRANSACTION SUCCESSFULL  -->
+
+
+        <dimen name="custom_image_view_width_alt">80dp</dimen>
+        <dimen name="custom_image_view_height_alt">70dp</dimen>
+        <dimen name="custom_image_view_margin_start_alt">8dp</dimen>
+        <dimen name="custom_image_view_margin_top_alt">16dp</dimen>
+        <dimen name="custom_image_view_margin_end_alt">8dp</dimen>
+
+
+        <dimen name="custom_first_text_view_margin_start_alt">8dp</dimen>
+        <dimen name="custom_first_text_view_margin_top_alt">1dp</dimen>
+        <dimen name="custom_first_text_view_margin_end_alt">8dp</dimen>
+        <dimen name="custom_first_text_view_text_size_alt">20sp</dimen>
+
+
+        <dimen name="custom_second_text_view_margin_start_alt">16dp</dimen>
+        <dimen name="custom_second_text_view_margin_end_alt">16dp</dimen>
+        <dimen name="custom_second_text_view_padding_alt">10dp</dimen>
+        <dimen name="custom_second_text_view_text_size_alt">18sp</dimen>
+        <dimen name="custom_divider_width_alt">1dp</dimen>
+        <dimen name="custom_button_width_alt">0dp</dimen>
+        <dimen name="custom_button_margin_start_alt">16dp</dimen>
+        <dimen name="custom_button_margin_top_alt">16dp</dimen>
+        <dimen name="custom_button_margin_end_alt">8dp</dimen>
+        <dimen name="custom_button_margin_bottom_alt">16dp</dimen>
+        <dimen name="custom_button_text_size_alt">18sp</dimen>
+
+
+    <!-- VOID FRAGMENT  -->
+
+
+        <dimen name="void_text_view_margin_start">16dp</dimen>
+        <dimen name="void_text_view_margin_top">16dp</dimen>
+        <dimen name="void_text_view_margin_bottom">16dp</dimen>
+        <dimen name="void_text_view_text_size">18sp</dimen>
+
+        <dimen name="void_edit_text_width">225dp</dimen>
+        <dimen name="void_edit_text_margin_end">16dp</dimen>
+        <dimen name="void_edit_text_padding_left">25dp</dimen>
+        <dimen name="void_edit_text_text_size">16sp</dimen>
+        <dimen name="void_dollar_text_view_margin_start">8dp</dimen>
+        <dimen name="void_dollar_text_view_text_size">18sp</dimen>
+        <dimen name="void_button_width">200dp</dimen>
+        <dimen name="void_button_margin">16dp</dimen>
+
+    <!-- TRANSACTION SUCCESSFUL FRAGMENT  -->
+
+    <dimen name="custom_alt_image_view_width">80dp</dimen>
+    <dimen name="custom_alt_image_view_height">70dp</dimen>
+    <dimen name="custom_alt_image_view_margin_start">8dp</dimen>
+    <dimen name="custom_alt_image_view_margin_top">16dp</dimen>
+    <dimen name="custom_alt_image_view_margin_end">8dp</dimen>
+
+    <!-- Dimensions for the first TextView -->
+    <dimen name="custom_alt_first_text_view_margin_start">8dp</dimen>
+    <dimen name="custom_alt_first_text_view_margin_top">1dp</dimen>
+    <dimen name="custom_alt_first_text_view_margin_end">8dp</dimen>
+    <dimen name="custom_alt_first_text_view_text_size">20sp</dimen>
+
+    <!-- Dimensions for the second TextView -->
+    <dimen name="custom_alt_second_text_view_margin_start">16dp</dimen>
+    <dimen name="custom_alt_second_text_view_margin_end">16dp</dimen>
+    <dimen name="custom_alt_second_text_view_padding">10dp</dimen>
+    <dimen name="custom_alt_second_text_view_text_size">18sp</dimen>
+
+    <!-- Dimensions for the View (divider) -->
+    <dimen name="custom_alt_divider_width">1dp</dimen>
+
+    <!-- Dimensions for the Buttons -->
+    <dimen name="custom_alt_button_width">0dp</dimen>
+    <dimen name="custom_alt_button_margin_start">16dp</dimen>
+    <dimen name="custom_alt_button_margin_top">16dp</dimen>
+    <dimen name="custom_alt_button_margin_end">8dp</dimen>
+    <dimen name="custom_alt_button_margin_bottom">16dp</dimen>
+    <dimen name="custom_alt_button_text_size">18sp</dimen>
+
+    <!-- HISTORY LAYOUT -->
+    <dimen name="tv_types_text_size">16sp</dimen>
+    <dimen name="tv_colon_text_size">18sp</dimen>
+    <dimen name="tv_type_weight">1</dimen>
+
+    <dimen name="tv_amt_text_size">16sp</dimen>
+
+
+    <dimen name="tv_date_text_size">16sp</dimen>
+
+
+    <dimen name="linear_layout_margin_start">5dp</dimen>
+    <dimen name="linear_layout_margin_end">5dp</dimen>
+    <dimen name="linear_layout_text_padding">5dp</dimen>
+
+
+    <dimen name="custom_circle_width">60dp</dimen>
+    <dimen name="custom_circle_height">60dp</dimen>
+
+    <dimen name="custom_user_name_text_size">20sp</dimen>
+
+    <dimen name="custom_layout_margin_top">16dp</dimen>
+    <dimen name="custom_layout_margin_start">16dp</dimen>
+    <dimen name="custom_text_margin_top">5dp</dimen>
+
+    <dimen name="custom_line_view_height">1dp</dimen>
+    <dimen name="custom_line_view_margin_top">5dp</dimen>
+
+    <dimen name="history_layout_padding">20dp</dimen>
+
+    <!-- "Transaction Successful" -->
+    <dimen name="transaction_text_size">24sp</dimen>
+    <dimen name="transaction_text_margin_bottom">20dp</dimen>
+
+
+    <dimen name="inner_layout_margin_top">0dp</dimen>
+
+
+    <dimen name="type_text_size">16sp</dimen>
+        <dimen name="general_margin_start_end">5dp</dimen>
+        <dimen name="text_size_bold">18sp</dimen>
+        <dimen name="text_size_normal">16sp</dimen>
+
+        <dimen name="layout_weight_1">1</dimen>
+
+    <!-- HOME ACTIVITY -->
+
+
+    <dimen name="bottom_appbar_fab_cradle_margin">10dp</dimen>
+    <dimen name="bottom_appbar_fab_cradle_rounded_corner_radius">50dp</dimen>
+    <dimen name="top_view_height">150dp</dimen>
+    <dimen name="top_view_margin_bottom">7dp</dimen>
+
+
+    <dimen name="image_view_widthHome">70dp</dimen>
+    <dimen name="image_view_heighthome">100dp</dimen>
+    <dimen name="image_view_margin_bottom">631dp</dimen>
+
+    <dimen name="fragment_container_height">475dp</dimen>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/custom_layout_margin_top"
+    android:layout_marginStart="@dimen/custom_layout_margin_start"
+    android:background="@color/LightGreen"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/custom_circle_width"
+        android:layout_height="@dimen/custom_circle_height"
+        android:src="@drawable/profile_pic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:textSize="@dimen/custom_user_name_text_size"
+        android:text="Sanjay"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/custom_text_margin_top"
+        android:text="Welcome Back" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_line_view_height"
+        android:layout_marginTop="@dimen/custom_line_view_margin_top"
+        android:background="@color/black"/>
+
+</LinearLayout>

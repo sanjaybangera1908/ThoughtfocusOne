@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/layout_margin_top"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Home.HomeFragment">
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView1"
+        android:layout_width="@dimen/card_width"
+        android:layout_height="@dimen/card_height"
+        android:layout_margin="@dimen/card_margin"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        android:clickable="true"
+        android:focusable="true">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/baseline_today_24"/>
+
+        <TextView
+            android:id="@+id/textMainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_margin_top"
+            android:padding="@dimen/text_padding"
+            android:text="Daily"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+        <!-- Hidden content -->
+        <LinearLayout
+            android:id="@+id/hiddenLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+
+            <TextView
+                android:id="@+id/textHiddenContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Sale"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/textHidnContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Void"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/textHinContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Refund"
+                android:textSize="@dimen/text_hiddensize" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView2"
+        android:layout_width="@dimen/card2_width"
+        android:layout_height="@dimen/card2_height"
+        android:layout_marginTop="@dimen/card2_margin_top"
+        android:layout_marginLeft="@dimen/card2_margin_left"
+        app:cardCornerRadius="@dimen/card2_corner_radius"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- Your main content goes here -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/baseline_next_week_24"/>
+
+        <TextView
+            android:id="@+id/extMainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/text_padding"
+            android:layout_marginTop="@dimen/text_margin_top"
+            android:text="Weekly"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/hiddenLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+
+            <TextView
+                android:id="@+id/textiddenContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Sale"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/texHidnContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Void"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/textHiContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Refund"
+                android:textSize="@dimen/text_hiddensize" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView3"
+        android:layout_width="@dimen/card3_width"
+        android:layout_height="@dimen/card3_height"
+        app:cardCornerRadius="@dimen/card3_corner_radius"
+        android:layout_marginTop="@dimen/card3_margin_top"
+        android:layout_marginLeft="@dimen/card3_margin_left"
+        android:clickable="true"
+        android:focusable="true">
+
+
+
+    <ImageView
+            android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+            android:src="@drawable/baseline_calendar_month_24"/>
+
+        <TextView
+            android:id="@+id/extainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
+            android:text="Monthly"
+            android:layout_marginTop="@dimen/text_margin_top"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/hiddenLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+
+            <TextView
+                android:id="@+id/textHiddenontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Sale"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/textHidnContnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Void"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Refund"
+                android:textSize="@dimen/text_hiddensize" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView4"
+        android:layout_width="@dimen/card4_width"
+        android:layout_height="@dimen/card4_height"
+        app:cardCornerRadius="@dimen/card4_corner_radius"
+        android:layout_marginTop="@dimen/card4_margin_top"
+        android:layout_marginLeft="@dimen/card4_margin_left"
+        android:clickable="true"
+        android:focusable="true">
+
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height"
+            android:src="@drawable/sale"/>
+
+        <TextView
+            android:id="@+id/exnContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_padding"
+            android:layout_marginTop="@dimen/text_margin_top"
+            android:text="Total"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:id="@+id/hiddenLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+
+            <TextView
+                android:id="@+id/ttHiddenontent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Sale"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/textHnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Void"
+                android:textSize="@dimen/text_hiddensize" />
+
+            <TextView
+                android:id="@+id/tex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/text_padding"
+                android:text="Refund"
+                android:textSize="@dimen/text_hiddensize" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

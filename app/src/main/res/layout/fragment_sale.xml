@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.Home.Transactions.SaleTransaction.SaleFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/layout_margin_top"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/custom_text_view_margin_start"
+            android:layout_marginTop="@dimen/custom_text_view_margin_top"
+            android:layout_marginBottom="@dimen/custom_text_view_margin_bottom"
+            android:text="SALE TRANSACTION"
+            android:textColor="#085A0B"
+            android:textSize="@dimen/custom_text_view_text_size"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="@dimen/custom_edit_text_width"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/custom_edit_text_margin_end"
+            android:background="@null"
+            android:paddingLeft="@dimen/custom_edit_text_padding_left"
+            android:ems="10"
+            android:hint="0.0"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/custom_edit_text_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.324" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/custom_dollar_text_view_margin_start"
+            android:text="$"
+            android:textSize="@dimen/custom_dollar_text_view_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.324" />
+
+        <Button
+            android:id="@+id/verifyButton"
+            android:layout_width="@dimen/custom_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#04B30B"
+            android:text="continue"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.547" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</FrameLayout>

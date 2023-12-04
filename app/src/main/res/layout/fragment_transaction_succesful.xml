@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.Home.Transactions.History.TransactionSuccesfulFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightGreen"
+        android:id="@+id/history"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="@dimen/history_layout_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transaction Successful"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/transaction_text_size"
+            android:layout_marginBottom="@dimen/transaction_text_margin_bottom"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/inner_layout_margin_top">
+
+            <TextView
+                android:id="@+id/tvTypes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/type_text_size"
+                tools:text="Type" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/general_margin_start_end"
+                android:layout_marginEnd="@dimen/general_margin_start_end"
+                android:textSize="@dimen/text_size_bold"
+                android:textStyle="bold"
+                tools:text=":" />
+
+            <TextView
+                android:id="@+id/tvType"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/layout_weight_1"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_normal"
+                tools:text="Type" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_normal"
+                tools:text="Amount" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/general_margin_start_end"
+                android:layout_marginEnd="@dimen/general_margin_start_end"
+                android:textSize="@dimen/text_size_bold"
+                android:textStyle="bold"
+                tools:text=":" />
+
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/layout_weight_1"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_normal"
+                tools:text="Amount" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_normal"
+                tools:text="Date" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/general_margin_start_end"
+                android:layout_marginEnd="@dimen/general_margin_start_end"
+                android:textSize="@dimen/text_size_bold"
+                android:textStyle="bold"
+                tools:text=":" />
+
+            <TextView
+                android:id="@+id/tvCurrentDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/layout_weight_1"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_normal"
+                tools:text="Date" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvTimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_normal"
+                tools:text="Time" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/general_margin_start_end"
+                android:layout_marginEnd="@dimen/general_margin_start_end"
+                android:textSize="@dimen/text_size_bold"
+                android:textStyle="bold"
+                tools:text=":" />
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="@dimen/layout_weight_1"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_normal"
+                tools:text="Time" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

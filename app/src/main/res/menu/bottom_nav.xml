@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Sale"
+        android:id="@+id/sale"
+        android:icon="@drawable/sale"/>
+    <item android:title="Void"
+        android:id="@+id/void_transaction"
+        android:icon="@drawable/close"/>
+    <item android:title="Refund"
+        android:id="@+id/refund_transaction"
+        android:icon="@drawable/refund"/>
+    <item android:title="History"
+        android:id="@+id/history"
+        android:icon="@drawable/profile"/>
+
+
+</menu>
